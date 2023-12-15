@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:padding="10dp"
-        android:text="Welcome to the Music Media"
+        android:text="@string/welcomeText"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,6 +25,7 @@
         android:layout_width="257dp"
         android:layout_height="245dp"
         android:layout_marginTop="44dp"
+        android:contentDescription="@string/welcomeImg"
         app:layout_constraintEnd_toEndOf="@+id/welcomeText"
         app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="@+id/welcomeText"
@@ -58,6 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_weight="1"
+            android:contentDescription="@string/pauseImg"
             app:srcCompat="@drawable/pause_icon" />
 
         <ImageView
@@ -65,6 +67,7 @@
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_weight="1"
+            android:contentDescription="@string/playImg"
             app:srcCompat="@drawable/play_icon" />
 
         <ImageView
@@ -72,6 +75,7 @@
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_weight="1"
+            android:contentDescription="@string/stopImg"
             app:srcCompat="@drawable/stop_icon" />
 
     </LinearLayout>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Learning Media Player</string>
+    <string name="welcomeText">Welcome to the Music Media</string>
+    <string name="welcomeImg">welcomeImg</string>
+    <string name="pauseImg">puaseImg</string>
+    <string name="playImg">Playing Img</string>
+    <string name="stopImg">stop Image</string>
 </resources>
